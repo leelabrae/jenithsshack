@@ -1,0 +1,84 @@
+.block {
+  padding: 25px;
+  outline: none;
+  display: block;
+  width: 250px;
+  border: none;
+  background-color: #33ccff;
+  color: white;
+  padding: 25px 55px;
+  max-width: 100%;
+  font-family: Chivo, sans-serif;
+  font-size: 13px;
+  line-height: 1;
+  font-weight:;
+  cursor: help;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.block:hover, block:active, block:focus, a.block:hover, a.block:active, a.block:focus {
+  background-color: #65ccff;
+  color: white;
+  opacity: 0.8;
+}
+
+.hover_bkgr_fricc {
+    background:rgba(0,0,0,0);
+    cursor:help;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper {
+    display:inline-block;
+    height:145%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    opacity: ;
+    box-shadow: 10px 10px 30px #a9a9;
+    display: inline-block;
+    height: auto;
+    max-width: 755px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    border-radius: 2px;
+    padding: 10px 2%;
+}
+.popupCloseButton {
+    background-color: #00;
+    opacity: .5;
+    border: 3px solid #00;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    color: #33ccff;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #00;
+}
+.trigger_popup_fricc {
+    cursor: help;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
